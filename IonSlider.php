@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2mod\slider;
+namespace xandrkat\slider;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
@@ -10,7 +10,7 @@ use yii\widgets\InputWidget;
 /**
  * Class IonSlider
  *
- * @package yii2mod\slider
+ * @package xandrkat\slider
  */
 class IonSlider extends InputWidget
 {

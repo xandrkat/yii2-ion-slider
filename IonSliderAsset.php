@@ -1,13 +1,13 @@
-<?php
+ <?php
 
-namespace yii2mod\slider;
+namespace xandrkat\slider;
 
 use yii\web\AssetBundle;
 
 /**
  * Class IonSliderAsset
  *
- * @package yii2mod\slider
+ * @package xandrkat\slider
  */
 class IonSliderAsset extends AssetBundle
 {
