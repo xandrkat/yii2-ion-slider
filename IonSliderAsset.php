@@ -14,15 +14,14 @@ class IonSliderAsset extends AssetBundle
     /**
      * @var string
      */
-    public $sourcePath = '@bower/ionrangeslider';
+    public $sourcePath = '@bower';
 
     /**
      * @var array
      */
     public $css = [
-        'css/normalize.css',
-        'css/ion.rangeSlider.css',
-        'css/ion.rangeSlider.skinHTML5.css',
+        '/necolas/normalize.css/normalize.css',
+        '/ionrangeslider/css/ion.rangeSlider.css',
     ];
 
     /**

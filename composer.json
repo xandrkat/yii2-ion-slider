@@ -17,10 +17,11 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/ionrangeslider": "*"
+        "bower-asset/ionrangeslider": "*",
+        "bower-asset/normalize.css": "*"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "~2.0"
+        
     },
     "autoload": {
         "psr-4": {
