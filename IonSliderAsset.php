@@ -1,4 +1,4 @@
- <?php
+<?php
 namespace xandrkat\slider;
 
 use yii\web\AssetBundle;
