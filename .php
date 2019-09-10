@@ -13,26 +13,27 @@ class IonSliderAsset extends AssetBundle
     /**
      * @var string
      */
-    public $sourcePath = '@bower/ionrangeslider';
+    public $sourcePath = '@bower';
 
     /**
      * @var array
      */
     public $css = [
-        'css/ion.rangeSlider.css'
+        'normalize.css/normalize.css',
+        'ionrangeslider/css/ion.rangeSlider.css',
     ];
 
     /**
      * @var array
      */
     public $js = [
-        'js/ion.rangeSlider.js'
+        'js/ion.rangeSlider.js',
     ];
 
     /**
      * @var array
      */
     public $depends = [
-        'yii\web\JqueryAsset'
+        'yii\web\JqueryAsset',
     ];
 }
