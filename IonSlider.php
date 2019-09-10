@@ -55,6 +55,7 @@ class IonSlider extends InputWidget
     protected function registerAssets()
     {
         $view = $this->getView();
+        NormalizeCssAsset::register($view);
         IonSliderAsset::register($view);
         $view->registerJs('$("#' . $this->options['id'] . '").ionRangeSlider(' . $this->getPluginOptions() . ');');
     }
