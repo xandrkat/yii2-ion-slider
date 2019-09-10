@@ -19,8 +19,8 @@ class IonSliderAsset extends AssetBundle
      * @var array
      */
     public $css = [
-        '/necolas/normalize.css/normalize.css',
-        '/ionrangeslider/css/ion.rangeSlider.css',
+        'normalize.css/normalize.css',
+        'ionrangeslider/css/ion.rangeSlider.css',
     ];
 
     /**
