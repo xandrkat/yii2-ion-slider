@@ -1,5 +1,5 @@
 {
-    "name": "yii2mod/yii2-ion-slider",
+    "name": "xandrkat/yii2-ion-slider",
     "description": "Ion.RangeSlider Widget for Yii 2",
     "type": "yii2-extension",
     "keywords": [
@@ -13,7 +13,12 @@
         {
             "name": "Igor Chepurnoy",
             "email": "igorzfort@gmail.com"
+        },
+		{
+            "name": "Alexandr Katrazhenko",
+            "email": "katrazhenko@gmail.com"
         }
+		
     ],
     "require": {
         "yiisoft/yii2": "*",
@@ -25,7 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "yii2mod\\slider\\": ""
+            "xandrkat\\slider\\": ""
         }
     },
     "repositories": [
